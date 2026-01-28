@@ -1,5 +1,5 @@
 ![](13177694.jpeg)
-<center><pre>
+<center><pre style="text-align:center">
 # H1
 
 IVI
