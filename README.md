@@ -30,11 +30,10 @@ HELLO?¿‽!¡ M ‽
 
 👋
 
-127178``` gg
+```
+❤️‍🔥💖😻
 
-
-
-gg ```
+```
 
 Previous char
 Unicode-Zeichen „🃊“ (U+1F0CA)
