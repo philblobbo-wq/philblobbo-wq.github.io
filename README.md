@@ -1,4 +1,4 @@
-<center>![NYAMI.JPEG](NYAMI.JPEG)
+![](13177694.jpeg)
 
 # H1
 
