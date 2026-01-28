@@ -1,4 +1,4 @@
-<center>![NYAMI.JPEG](NYAMI.JPEG
+<center>![NYAMI.JPEG](NYAMI.JPEG)
 
 # H1
 
