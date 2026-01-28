@@ -26,6 +26,10 @@ script {
     justify-items: center;
 }
 
+time {
+    float:          right;
+}
+
 html {
     font-family: "Noto Sans Mono", monospace;
     font-optical-sizing: auto;
@@ -77,9 +81,16 @@ ZeichenU+03D5
       - - wrap in .ICO or rather just .ico
 
 </pre>
+<time>✓</time>
 <script>
 
 /*. 🃊. */
+
+const time = document.querySelector("time");
+const tnow = () => {
+    time.textContent = Date.now();
+};
+tnow();
 
 </script>
 
