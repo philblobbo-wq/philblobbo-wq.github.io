@@ -21,7 +21,9 @@
 }
 
 script {
-    display: block;
+    display:         grid;
+      align-items: center;
+    justify-items: center;
 }
 
 html {
@@ -37,13 +39,16 @@ body {
     background-color: var(--black);
     margin:                      0;
 
-    display:                  grid;
-    background: rebeccapurple;
+          display:   grid;
+      align-items: center;
+    justify-items: center;
 }
 
 cell {
-    background: gray;
-    color:      grey;
+    background:    red;
+    color:       black;
+
+    &::after, &::before {content:"0"}
 }
 
 
@@ -76,11 +81,11 @@ ZeichenU+03D5
 </pre>
 <script>
 
-const KV = window.KV = {};
+/**/
+// L_-
+/****/
 
-KV.whatever = 123;
 
-alert(KV);
 
 </script>
 </body>
