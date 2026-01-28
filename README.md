@@ -1,5 +1,5 @@
 ![](13177694.jpeg)
-<center><pre style="text-align:center">
+<center>
 # H1
 
 IVI
@@ -30,6 +30,4 @@ HELLO?¿‽!¡ M ‽
 
 👋
 
-</center></pre>
-
-float➡️
+</center>
