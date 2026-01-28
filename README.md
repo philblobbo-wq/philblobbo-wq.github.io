@@ -1,4 +1,2 @@
 # philblobbo-wq.github.io
-philblobbo-wq.github.io
-
-J
+<philblobbo-wq.github.io>
