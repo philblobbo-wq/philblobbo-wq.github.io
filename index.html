@@ -17,6 +17,11 @@
   color-scheme: dark;
   --white:      snow;
   --black:      #222;
+
+  --card-nlines: white;
+  --card-stroke: black;
+  --card-color1: black;
+  --card-color2:   red;
 }
 
 html, body {
@@ -25,24 +30,13 @@ html, body {
   color:      var(--white);
   display:            grid;
 }
-</style>
 
-<style>
-::root {
-  --card-nlines: white;
-  --card-stroke: black;
-  --card-color1: black;
-  --card-color2:   red;
-}
-
-card, button {
+button {
   background: var(--card-nlines);
   border: 1px solid var(--card-stroke);
   color: var(--card-color2);
 }
-</style>
 
-<style>
 html {
   font-family: "Noto Sans Mono", monospace, "Arial";
   font-optical-sizing: auto;
@@ -78,15 +72,16 @@ img {
   width: 100%;
 }
 </style>
-
 </head>
+
 <body>
 
 <header>
-  <time></time>
+  <time>TIME</time>
 </header>
+
 <main>
- <time></time>
+ <time>TIME</time>
  <button onclick="tnow()">❤️‍🔥💖</button>
 
  <cell>🃊</cell>
@@ -96,13 +91,12 @@ img {
 <script>// -------
 
 const tnow = () => {
-  let tnow_timestamp = Date now();
-  let tnow_string = "-";
+  const tnow_timestamp = Date now();
+  let tnow_string = "";
   tnow_string += tnow_timestamp;
   tnow_string += "Z";
-
-  const timz = document.querySelectorAll("time");
-  for (const time of timz) {
+  document.querySelectorAll("time").forEach(t =>
+  {
     alert(69);
     time.textContent = tnow_string;
   };
