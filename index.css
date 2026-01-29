@@ -1,0 +1,12 @@
+::root {
+  --card-nlines  white;
+  --card-stroke: black;
+  --card-color1: black;
+  --card-color2:   red;
+}
+
+button {
+  background: var(--card-nlines);
+  border: 1px solid var(--card-stroke);
+  color: var(--card-color2);
+}
