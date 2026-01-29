@@ -8,10 +8,9 @@
   --black:      #222;
 }
 
-//imp
-//ort
-//ant
-
-script {
-  border: 1px dotted var(--white);
+html,body {
+  margin:                0;
+  background: var(--black);
+  color:      var(--white);
+  display:            grid;
 }
