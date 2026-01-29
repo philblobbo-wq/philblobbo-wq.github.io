@@ -1,12 +1,8 @@
-<!doctype html>
-<html lang="_o">
-<head                >
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Phivil.</title>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-
-<title>ImPhiLinG.ooohhBB0</title>
-
-<link rel="stylesheet" href="important.css">
-<link rel="stylesheet" href="index.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +19,7 @@
   --black:      #222;
 }
 
-html,body {
+html, body {
   margin:                0;
   background: var(--black);
   color:      var(--white);
@@ -32,63 +28,72 @@ html,body {
 </style>
 
 <style>
-
-script {
-    display:         grid;
-      align-items: center;
-    justify-items: center;
-  white-space:   pre-wrap;
+::root {
+  --card-nlines: white;
+  --card-stroke: black;
+  --card-color1: black;
+  --card-color2:   red;
 }
 
+card, button {
+  background: var(--card-nlines);
+  border: 1px solid var(--card-stroke);
+  color: var(--card-color2);
+}
+</style>
+
+<style>
 html {
-    font-family: "Noto Sans Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 777;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
+  font-family: "Noto Sans Mono", monospace, "Arial";
+  font-optical-sizing: auto;
+  font-weight: 777;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
-body {
+body, header, main, footer {
           display:   grid;
       align-items: center;
     justify-items: center;
 }
 
+script {
+    display:         grid;
+  white-space:   pre-wrap;
+}
+
 cell {
-    background:  white;
-    color:       black;
+  background: var(--white);
+  color:      var(--black);
 
-    gap: 1em;
-    border: 1px solid black;
+  padding: 1em;
+  border: 1px solid   pink;
 
-    width:   7em;
-    height: 14em;
+  width:  3em;
+  height: 5em;
 }
 
 img {
   height:auto;
   width: 100%;
 }
-
 </style>
 
 </head>
 <body>
 
-<header>. ϕ
-  <time />
+<header>
+  <time></time>
 </header>
 <main>
+ <time></time>
+ <button onclick="tnow()">❤️‍🔥💖</button>
 
-<time >< /time>
+ <cell>🃊</cell>
+ <cell>ϕ</cell>
+ <cell>P</cell>
 
-<button onclick="tnow()">❤️‍🔥💖</button>
-
-<cell>🃊</cell>
-<cell>🃊</cell>
-<cell>🃊</cell>
-
-<script>//🃊*///
+<script>// -------
 
 const tnow = () => {
   let tnow_timestamp = Date now();
@@ -104,11 +109,12 @@ const tnow = () => {
 };
 tnow();
 
+// -------
 </script>
 </main >
 
 <footer>
- <time />
+ <time></time>
 </footer>
 
 </body>
