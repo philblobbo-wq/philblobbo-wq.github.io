@@ -13,6 +13,25 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
 
 <style>
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+::root {
+  color-scheme: dark;
+  --white:      snow;
+  --black:      #222;
+}
+
+html,body {
+  margin:                0;
+  background: var(--black);
+  color:      var(--white);
+  display:            grid;
+}
+</style>
+
+<style>
 
 script {
     display:         grid;
@@ -30,10 +49,6 @@ html {
 }
 
 body {
-    color:            var(--white);
-    background-color: var(--black);
-    margin:                      0;
-
           display:   grid;
       align-items: center;
     justify-items: center;
@@ -60,15 +75,12 @@ img {
 </head>
 <body>
 
-<header>PHIL LL LL LL INCORNE ASS SSOC IA TION
-
+<header>. ϕ
+  <time />
 </header>
 <main>
 
-<h1>HQ</h1>
-Z <time>™</time>
-
-U+03D5=ϕ
+<time >< /time>
 
 <button onclick="tnow()">❤️‍🔥💖</button>
 
@@ -78,13 +90,15 @@ U+03D5=ϕ
 
 <script>//🃊*///
 
-const timezz = document.querySelectorAll("time");
 const tnow = () => {
   let tnow_timestamp = Date now();
   let tnow_string = "-";
   tnow_string += tnow_timestamp;
   tnow_string += "Z";
-  for (const time of timezz) {
+
+  const timz = document.querySelectorAll("time");
+  for (const time of timz) {
+    alert(69);
     time.textContent = tnow_string;
   };
 };
@@ -92,9 +106,10 @@ tnow();
 
 </script>
 </main >
+
 <footer>
  <time />
-</footer/>
+</footer>
 
 </body>
 </html>
